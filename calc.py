@@ -84,28 +84,34 @@ def Calculator():
         except(TypeError, ValueError, ZeroDivisionError):
             print("Invalid input")
             print("")
-            Calculator();            
+            Calculator()            
         
     elif calc == "exp":
         print("")
         number1 = float(input("Please select the first number: "))
-        print("Answer: ", exp(number1))
-        print("")
-        Calculator();         
+        try:
+            value = exp(number1)
+            print("Answer: ", value)
+            print("")
+            Calculator() 
+        except(TypeError, ValueError, ZeroDivisionError):
+            print("Invalid input")
+            print("")
+            Calculator()            
         
     elif calc == "sin":
         print("")
         number1 = float(input("Please select the first number (rad): "))
         print("Answer: ", sin(number1))
         print("")
-        Calculator();
+        Calculator()
 
     elif calc == "cos":
         print("")
         number1 = float(input("Please select the first number (rad): "))
         print("Answer: ", cos(number1))
         print("")
-        Calculator();               
+        Calculator()               
         
     elif calc == "tan":
         print("")       
@@ -114,11 +120,11 @@ def Calculator():
             value = tan(number1)
             print("Answer: ", value)
             print("")
-            Calculator();
+            Calculator()
         except (TypeError, ValueError. ZeroDivisionError):
             print("Invalid input")
             print("")
-            Calculator();        
+            Calculator()        
                 
     elif calc == "exit":
         exit();
