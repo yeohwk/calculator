@@ -73,7 +73,7 @@ def Calculator():
         Calculator();
         
     elif calc == "%%":
-        print("")
+        print("x")
         number1 = float(input("Please select the first number: "))
         number2 = float(input("Please select the second number: "))
         try:
