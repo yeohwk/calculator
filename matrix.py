@@ -49,7 +49,7 @@ def matrix_calculator():
             except ValueError as e:
                 print("Error:", e)
         else:
-            print("Invalid operation")
+            print("Invalid operation! Please try again.")
 
 if __name__ == "__main__":
     matrix_calculator()
