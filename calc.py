@@ -2,6 +2,7 @@ from math import sin
 from math import cos
 from math import tan
 from math import exp
+import numpy as np
 
 def Calculator():
 
