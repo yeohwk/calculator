@@ -59,7 +59,7 @@ def text_based_calculator():
             print("Result:", math.exp(num))
 
         else:
-            print("Invalid choice")
+            print("Invalid choice. Please try again!")
 
 if __name__ == "__main__":
     text_based_calculator()
