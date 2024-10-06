@@ -32,7 +32,7 @@ def text_based_calculator():
                 if num2 != 0:
                     print("Result:", num1 / num2)
                 else:
-                    print("Error: Division by zero")
+                    print("Error: Division by zero is not permitted!")
 
         elif choice in ['5']:
             trig_operation = input("Enter trigonometric function (sin, cos, tan): ")
