@@ -138,6 +138,19 @@ def Calculator():
         except (TypeError, ValueError. ZeroDivisionError):
             print("Invalid input")
             print("")
+            Calculator()
+
+elif calc == "tanh":
+        print("")       
+        number1 = float(input("Please select the first number (rad): "))
+        try:
+            value = tan(number1)
+            print("Answer: ", value)
+            print("")
+            Calculator()
+        except (TypeError, ValueError. ZeroDivisionError):
+            print("Invalid input")
+            print("")
             Calculator()            
                 
     elif calc == "exit":
